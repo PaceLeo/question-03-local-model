@@ -1,0 +1,33 @@
+
+
+Loading model... 
+
+▄▄ ▄▄
+██ ██
+██ ██  ▀▀█▄ ███▄███▄  ▀▀█▄    ▄████ ████▄ ████▄
+██ ██ ▄█▀██ ██ ██ ██ ▄█▀██    ██    ██ ██ ██ ██
+██ ██ ▀█▄██ ██ ██ ██ ▀█▄██ ██ ▀████ ████▀ ████▀
+                                    ██    ██
+                                    ▀▀    ▀▀
+
+build      : b0-unknown
+model      : models/gemma-4-E2B-it-Q4_0.gguf
+ftype      : Q4_0
+modalities : text
+
+available commands:
+  /exit or Ctrl+C     stop or exit
+  /regen              regenerate the last response
+  /clear              clear the chat history
+  /read <file>        add a text file
+  /glob <pattern>     add text files using globbing pattern
+
+
+
+> 请用三句话向大学新生解释什么是开源软件，并给出一个例子。
+开源软件是指软件的源代码可以被任何人查看、修改和分发的软件，它通常遵循特定的开源许可协议。这使得开发者可以共同协作、改进软件，并让技术知识得以共享和透明化。一个很好的例子是 **Linux** 操作系统，它由全球的开发者社区共同维护和发展。
+
+[ Prompt: 154.9 t/s | Generation: 264.6 t/s ]
+
+
+Exiting...
