@@ -1,0 +1,31 @@
+# Local credentials and configuration
+*[Tt][Oo][Kk][Ee][Nn]*
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Downloaded third-party sources, models, and build outputs
+/vendor/llama.cpp/
+*.gguf
+*.safetensors
+*.onnx
+/build/
+/build-*/
+/tmp/
+.venv/
+__pycache__/
+*.py[cod]
+*.exe
+*.dll
+*.obj
+*.pdb
+*.zip
+*.7z
+Thumbs.db
+.DS_Store
+
+# build_log.txt and experiment evidence must remain trackable.

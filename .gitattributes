@@ -1,0 +1,4 @@
+# Preserve raw experiment output bytes in Git.
+build_log.txt -text
+*_stdout.txt -text
+*_stderr.txt -text
