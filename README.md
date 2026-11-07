@@ -10,13 +10,14 @@ question-03-local-model/
   src/                 编译、运行及验证脚本
   docs/                环境说明和书面答案
   res/                 实际运行截图等提交资源
+  models/              本题模型权重，仅保留在本地
   vendor/llama.cpp/    下载的上游源码，仅保留在本地
   build/               本机编译输出，仅保留在本地
   build_log.txt        实际编译时生成的完整原始 stdout
 ```
 
 `build/` 和 `build_log.txt` 在实际编译时生成，目前尚未生成。
-模型使用上层目录中的 `../gemma-4-E2B-it-Q4_0.gguf`，不复制、不提交权重。
+模型位于本仓库工作目录中的 `models/gemma-4-E2B-it-Q4_0.gguf`，由原位置移动而来，不提交权重。
 上游源码来自本机已有的 `llama.cpp-master` 下载目录；其具体提交版本尚未核实，不将本仓库的提交号当作上游版本号。
 
 ## 必做项
